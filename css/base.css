@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*点击默认的样式*/
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    font-size: 14px;
+    /*使用微软雅黑字体，没有就是操作系统自带的默认字体*/
+    font-family: "MicroSoft YaHei", sans-serif;
+    color: #333;
+}
+a{
+     color: #ccc;
+     text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+
+input{
+     border: none;
+     outline: none;
+     /*输入项所有的内置样式全部清除*/
+     -webkit-appearance: none;
+}
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.m_l10{
+    margin-left: 10px;
+}
+.m_r10{
+     margin-right: 10px;
+}
+.m_t10{
+     margin-top: 10px;
+}
+.m_b10{
+    margin-bottom: 10px;
+}
+[class^=icon_]{
+        background: url("../images/jd-sprites.png");
+        background-size: 200px 200px;
+}
+
+
+
